@@ -1,4 +1,4 @@
-package br.com.security;
+package br.com.security.resource;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,8 +10,4 @@ public class LoginController {
         return "login";
     }
 
-//    @GetMapping("/error")
-//    private String getError(){
-//        return "error";
-//    }
 }

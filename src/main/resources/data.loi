@@ -1,0 +1,4 @@
+--insert into user (username, password) values ('Seguranca','$2a$10$S15GTHBKsByyd.4xc9UqrO85tXf0MI4KEpnU3bufHAY00AjCPX8Hq');
+
+insert into authority (user_id, authority) values (1,"ADMIN");
+insert into authority (user_id, authority) values (1,"USER");

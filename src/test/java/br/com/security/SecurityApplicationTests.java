@@ -11,7 +11,7 @@ class SecurityApplicationTests {
 	@Test
 	void contextLoads() {
 		PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
-		String passowrd = passwordEncoder.encode("Security1234");
+		String passowrd = passwordEncoder.encode("Senha123");
 		System.out.println(passowrd);
 
 
